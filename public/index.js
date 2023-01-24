@@ -19,7 +19,7 @@ async function main() {
     const highestPriceChartCanvas = document.querySelector('#highest-price-chart');
     const averagePriceChartCanvas = document.querySelector('#average-price-chart');
 
-    const response = await fetch(`https://api.twelvedata.com/time_series?symbol=GME,MSFT,DIS,BNTX&interval=1day&apikey=86372b5aa08b4283b74e720a1f6d39c1`)
+    const response = await fetch(`86372b5aa08b4283b74e720a1f6d39c1`)
 
     const result = await response.json()
 
